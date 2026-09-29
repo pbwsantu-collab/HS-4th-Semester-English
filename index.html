@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="HS 4th Semester English – Interactive learning hub for literature, poetry, prose and environmental studies. Read, understand, practise and master." />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="HS English" />
+  <title>HS 4th Semester English | Learning Hub</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="icon.svg" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-layer" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <header class="nav" id="nav" role="banner">
+    <a href="#home" class="nav-brand" aria-label="HS English Home">HS ENGLISH</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#lessons">Lessons</a>
+      <a href="#study-path">Study Path</a>
+      <a href="#about">About</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMobile">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-mobile" id="navMobile" role="navigation" aria-label="Mobile navigation">
+      <a href="#home">Home</a>
+      <a href="#lessons">Lessons</a>
+      <a href="#study-path">Study Path</a>
+      <a href="#about">About</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-badge">West Bengal Higher Secondary</div>
+      <h1 class="hero-title" id="hero-title">
+        <span>HS 4TH SEMESTER</span>
+        <span>ENGLISH</span>
+      </h1>
+      <p class="hero-sub">Learn · Read · Understand · Practise · Master</p>
+
+      <div class="book-scene" id="bookScene" aria-hidden="true">
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="book-wrapper" id="bookWrapper">
+          <div class="book-glow"></div>
+          <div class="book">
+            <div class="book-page left"></div>
+            <div class="book-spine"></div>
+            <div class="book-page right"></div>
+          </div>
+          <span class="floating-letter">A</span>
+          <span class="floating-letter">“</span>
+          <span class="floating-letter">E</span>
+          <span class="floating-letter">”</span>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#lessons" class="btn btn-primary" id="btnStart">Start Learning</a>
+        <a href="#lessons" class="btn btn-secondary" id="btnExplore">Explore Lessons</a>
+      </div>
+
+      <div class="scroll-indicator" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="arrow"></div>
+      </div>
+    </section>
+
+    <section class="section" id="lessons" aria-labelledby="lessons-title">
+      <div class="section-header">
+        <h2 class="section-title" id="lessons-title">Your 4th Semester Learning Hub</h2>
+        <p class="section-sub">Everything you need to read, understand and practise in one place.</p>
+      </div>
+
+      <div class="lessons-grid" id="lessonsGrid">
+        <article class="card" data-lesson="alice" tabindex="0">
+          <div class="card-inner">
+            <span class="card-num">01</span>
+            <div class="card-visual visual-alice" aria-hidden="true">
+              <div class="alice-card-shape"></div>
+              <div class="alice-card-shape"></div>
+              <div class="alice-card-shape"></div>
+              <div class="alice-clock"></div>
+            </div>
+            <h3 class="card-title">Alice in Wonderland</h3>
+            <p class="card-author">Lewis Carroll</p>
+            <span class="card-cat">Prose / Fiction</span>
+            <p class="card-desc">Explore Alice's extraordinary journey through the strange and imaginative world of Wonderland.</p>
+            <a href="https://pbwsantu-collab.github.io/Alice-in-the-Wonderland-/#laq"
+               class="card-btn" data-lesson-id="alice"
+               aria-label="Open Alice in Wonderland lesson">Open Lesson</a>
+          </div>
+        </article>
+
+        <article class="card" data-lesson="hawk" tabindex="0">
+          <div class="card-inner">
+            <span class="card-num">02</span>
+            <div class="card-visual visual-hawk" aria-hidden="true">
+              <div class="hawk-sil"></div>
+              <div class="hawk-mountain"></div>
+            </div>
+            <h3 class="card-title">Hawk Roosting</h3>
+            <p class="card-author">Ted Hughes</p>
+            <span class="card-cat">Poetry</span>
+            <p class="card-desc">Explore the powerful voice, imagery, nature and themes of Ted Hughes's famous poem.</p>
+            <a href="https://pbwsantu-collab.github.io/Hawk-Roosting/"
+               class="card-btn" data-lesson-id="hawk"
+               aria-label="Open Hawk Roosting lesson">Open Lesson</a>
+          </div>
+        </article>
+
+        <article class="card" data-lesson="tolstoy" tabindex="0">
+          <div class="card-inner">
+            <span class="card-num">03</span>
+            <div class="card-visual visual-tolstoy" aria-hidden="true">
+              <span class="q-mark">?</span>
+              <span class="q-mark">?</span>
+              <span class="q-mark">?</span>
+            </div>
+            <h3 class="card-title">Three Questions</h3>
+            <p class="card-author">Leo Tolstoy</p>
+            <span class="card-cat">Short Story</span>
+            <p class="card-desc">Explore Tolstoy's philosophical story about the most important time, the most important person and the most important action.</p>
+            <a href="https://pbwsantu-collab.github.io/three-questions-tolstoy-pwa/"
+               class="card-btn" data-lesson-id="tolstoy"
+               aria-label="Open Three Questions lesson">Open Lesson</a>
+          </div>
+        </article>
+
+        <article class="card" data-lesson="sonnet" tabindex="0">
+          <div class="card-inner">
+            <span class="card-num">04</span>
+            <div class="card-visual visual-sonnet" aria-hidden="true">
+              <div class="sonnet-leaf"></div>
+              <div class="sonnet-leaf"></div>
+              <div class="sonnet-leaf"></div>
+              <span class="sonnet-roman">LXXIII</span>
+            </div>
+            <h3 class="card-title">Sonnet 73</h3>
+            <p class="card-author">William Shakespeare</p>
+            <span class="card-cat">Poetry / Sonnet</span>
+            <p class="card-desc">Study Shakespeare's meditation on ageing, time, mortality and enduring love.</p>
+            <a href="https://pbwsantu-collab.github.io/sonnet-73-master/"
+               class="card-btn" data-lesson-id="sonnet"
+               aria-label="Open Sonnet 73 lesson">Open Lesson</a>
+          </div>
+        </article>
+
+        <article class="card" data-lesson="greenhouse" tabindex="0">
+          <div class="card-inner">
+            <span class="card-num">05</span>
+            <div class="card-visual visual-greenhouse" aria-hidden="true">
+              <div class="earth-orb"></div>
+            </div>
+            <h3 class="card-title">Greenhouse Effect</h3>
+            <p class="card-author">Environmental Studies</p>
+            <span class="card-cat">Environmental Topic</span>
+            <p class="card-desc">Understand the greenhouse effect, atmospheric gases, global warming and environmental impact through interactive learning.</p>
+            <a href="https://pbwsantu-collab.github.io/greenhouse-effect-master/"
+               class="card-btn" data-lesson-id="greenhouse"
+               aria-label="Open Greenhouse Effect lesson">Open Lesson</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="quick-access" aria-labelledby="qa-title">
+      <div class="section-header">
+        <h2 class="section-title" id="qa-title">Quick Access</h2>
+      </div>
+      <div class="quick-access">
+        <button type="button" class="qa-btn" data-msg="Choose a lesson above to begin reading." aria-label="Reading">
+          <span aria-hidden="true">📖</span><span>Reading</span>
+        </button>
+        <button type="button" class="qa-btn" data-msg="Choose a lesson above to start learning." aria-label="Learn">
+          <span aria-hidden="true">🎧</span><span>Learn</span>
+        </button>
+        <button type="button" class="qa-btn" data-msg="Choose a lesson above to practise questions." aria-label="Practise">
+          <span aria-hidden="true">📝</span><span>Practise</span>
+        </button>
+        <button type="button" class="qa-btn" data-msg="Choose a lesson above to test yourself." aria-label="Test Yourself">
+          <span aria-hidden="true">🎯</span><span>Test Yourself</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section" id="study-path" aria-labelledby="path-title">
+      <div class="section-header">
+        <h2 class="section-title" id="path-title">Study Flow</h2>
+        <p class="section-sub">A clear path from first reading to mastery.</p>
+      </div>
+      <div class="study-flow" role="list">
+        <div class="flow-step" role="listitem">
+          <div class="flow-num">01</div>
+          <div class="flow-content"><h4>Read</h4><p>Read the lesson carefully.</p></div>
+        </div>
+        <div class="flow-step" role="listitem">
+          <div class="flow-num">02</div>
+          <div class="flow-content"><h4>Understand</h4><p>Learn meanings, explanations and themes.</p></div>
+        </div>
+        <div class="flow-step" role="listitem">
+          <div class="flow-num">03</div>
+          <div class="flow-content"><h4>Practise</h4><p>Attempt MCQs, SAQs and questions.</p></div>
+        </div>
+        <div class="flow-step" role="listitem">
+          <div class="flow-num">04</div>
+          <div class="flow-content"><h4>Test</h4><p>Check your understanding.</p></div>
+        </div>
+        <div class="flow-step" role="listitem">
+          <div class="flow-num">05</div>
+          <div class="flow-content"><h4>Master</h4><p>Revise and improve.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="progress" aria-labelledby="progress-title">
+      <div class="section-header">
+        <h2 class="section-title" id="progress-title">My Learning Journey</h2>
+        <p class="section-sub">Track lessons you have opened.</p>
+      </div>
+      <div class="progress-grid" id="progressGrid">
+        <div class="progress-tile" data-progress="alice"><h4>Alice in Wonderland</h4><p class="progress-status">Ready to Learn</p></div>
+        <div class="progress-tile" data-progress="hawk"><h4>Hawk Roosting</h4><p class="progress-status">Ready to Learn</p></div>
+        <div class="progress-tile" data-progress="tolstoy"><h4>Three Questions</h4><p class="progress-status">Ready to Learn</p></div>
+        <div class="progress-tile" data-progress="sonnet"><h4>Sonnet 73</h4><p class="progress-status">Ready to Learn</p></div>
+        <div class="progress-tile" data-progress="greenhouse"><h4>Greenhouse Effect</h4><p class="progress-status">Ready to Learn</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="section-header">
+        <h2 class="section-title" id="about-title">Your Digital English Classroom</h2>
+      </div>
+      <p class="about-text">
+        A single learning hub for HS 4th Semester English. Explore literature, poetry, prose and environmental topics through interactive learning resources.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <p class="footer-title">HS 4TH SEMESTER ENGLISH</p>
+    <p class="footer-tag">Learn · Understand · Practise · Master</p>
+    <p class="footer-note">Interactive Learning Hub</p>
+    <p class="footer-copy">© 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
