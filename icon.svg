@@ -16,8 +16,12 @@
   <circle cx="256" cy="256" r="248" fill="url(#bg)"/>
   <circle cx="256" cy="256" r="220" fill="none" stroke="#60a5fa" stroke-width="3" opacity="0.35"/>
   <circle cx="256" cy="256" r="200" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.25"/>
+  <!-- left page -->
   <path d="M150 180 L248 170 L248 350 L150 340 Z" fill="url(#pageL)"/>
+  <!-- right page -->
   <path d="M264 170 L362 180 L362 340 L264 350 Z" fill="url(#pageR)"/>
+  <!-- spine -->
   <rect x="248" y="168" width="16" height="184" fill="#5c4033" rx="2"/>
+  <!-- accent glow -->
   <ellipse cx="256" cy="260" rx="90" ry="30" fill="#60a5fa" opacity="0.15"/>
 </svg>

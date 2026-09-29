@@ -1,10 +1,8 @@
-const CACHE_NAME = 'hs-english-v2';
+const CACHE_NAME = 'hs-english-v1';
 const ASSETS = [
   './',
   './index.html',
   './style.css',
-  './style-a.css',
-  './style-b.css',
   './script.js',
   './manifest.json',
   './icon.svg'
