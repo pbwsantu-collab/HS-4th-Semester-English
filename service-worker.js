@@ -1,13 +1,13 @@
-const CACHE_NAME = 'hs-english-v1';
+const CACHE_NAME = 'hs-english-v2';
 const ASSETS = [
   './',
   './index.html',
   './style.css',
+  './style-a.css',
+  './style-b.css',
   './script.js',
   './manifest.json',
-  './icon.svg',
-  './icon-192.png',
-  './icon-512.png'
+  './icon.svg'
 ];
 
 self.addEventListener('install', (event) => {
